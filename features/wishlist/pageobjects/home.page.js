@@ -12,8 +12,12 @@ class HomePage extends Page {
     get productTitle () { return $('header > div h1.RegularTitle__StyledPageTitle-zjo017-0')}
         
     async pageHasBeenLoaded () {
-        await (await this.acceptCookiesButton).waitForExist(this.waitObject)
-        await (await this.acceptCookiesButton).click()
+        try {
+            await (await this.acceptCookiesButton).waitForExist(this.waitObj)
+            await (await this.acceptCookiesButton).click()
+        } catch (error) {
+            console.log('Cookies popup not present...continue' + error)
+        }
         await (await this.westwingnowLogo).waitForExist(this.waitObject)
         let isDisplayed = await (await this.westwingnowLogo).isDisplayed()
         return isDisplayed
