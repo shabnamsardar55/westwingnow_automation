@@ -40,12 +40,21 @@ https://github.com/shabnamsardar55/westwingnow_automation/tree/master
 
 # Reporting :
 
-1. Console Reoprt Log : 
+1. Console Report Log : 
 
 ![image](https://user-images.githubusercontent.com/77624984/125280291-7e31e080-e332-11eb-96a7-16530ad3f51c.png)
 
 
 2. Allure HTML Report : 
+
+To get Allure HTML Report -
+
+1. Execute the entire feature
+2. Run command 
+>'npm i -g allure-commandline'
+3. Run command
+>'allure serve <path to allure-results folder>'
+>For examples - allure serve C:\Users\sardas2\westwingnow_automation\allure-results
 
 ![image](https://user-images.githubusercontent.com/77624984/125280099-53478c80-e332-11eb-82ec-5d47cd961a0b.png)
 
