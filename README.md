@@ -40,12 +40,12 @@ https://github.com/shabnamsardar55/westwingnow_automation/tree/master
 
 # Reporting :
 
-1. Console Report Log : 
+# 1.Console Report Log : 
 
 ![image](https://user-images.githubusercontent.com/77624984/125280291-7e31e080-e332-11eb-96a7-16530ad3f51c.png)
 
 
-2. Allure HTML Report : 
+# 2.Allure HTML Report : 
 
 To get Allure HTML Report -
 
