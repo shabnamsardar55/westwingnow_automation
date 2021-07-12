@@ -1,1 +1,0 @@
-# westwingnow_automation
