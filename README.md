@@ -42,7 +42,14 @@ Clone repository of master branch
  
 # Reporting :
 
->>>> Console Reoprt Log : 
-![image](https://user-images.githubusercontent.com/74857236/119126564-ccbcb000-ba50-11eb-81bf-abcc1dd2a6fd.png)
+1. Console Reoprt Log : 
+![image](https://user-images.githubusercontent.com/77624984/125280291-7e31e080-e332-11eb-96a7-16530ad3f51c.png)
 
->>>> Allure HTML Report : 
+
+2. Allure HTML Report : 
+![image](https://user-images.githubusercontent.com/77624984/125280099-53478c80-e332-11eb-82ec-5d47cd961a0b.png)
+
+![image](https://user-images.githubusercontent.com/77624984/125280182-678b8980-e332-11eb-818a-2670ac45ac64.png)
+
+
+
