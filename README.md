@@ -37,12 +37,6 @@ https://github.com/shabnamsardar55/westwingnow_automation/tree/master
 2. Check image has been build successfully using command "docker images"
 3. Run script on image using command "docker run -it westwing:v1"
 
-# Build using docker-compose
-1. Install libraries using command "npm install"
-2. Build docker using command "docker-compose up"
-3. Open second terminal and run script using command "npm run test"
-4. Shutdown docker infrastructure using command "docker-compose down"
- 
 # Reporting :
 
 1. Console Reoprt Log : 
