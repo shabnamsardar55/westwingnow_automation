@@ -11,7 +11,7 @@ class ProductListPage extends Page {
         return (await this.productList).length
     }
 
-    async addFirtProductInWishList () {
+    async addFirstProductInWishlist () {
         let wishListIcon = await (await this.productList)[0].$('svg.ww-uikit_StyledHeartIcon-sc-1jh2r08')
         let selectedProductName = await (await this.productList)[0].$('h2[data-testid="product-title"]')
         global.wishProductName = await selectedProductName.getText()

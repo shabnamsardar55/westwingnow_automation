@@ -13,6 +13,8 @@ Pre-requisites:
 3. Install Docker software
 
 Clone repository of master branch
+
+https://github.com/shabnamsardar55/westwingnow_automation/tree/master
  
 # Part 1 : Build at local : headless mode 
 1. Install libraries using command "npm install"
@@ -25,6 +27,7 @@ Clone repository of master branch
 ![image](https://user-images.githubusercontent.com/74857236/119124803-b31a6900-ba4e-11eb-9f7b-6427129ed884.png)
 
 3. comment chrome option added for headless mode
+
 ![image](https://user-images.githubusercontent.com/74857236/119125030-f1b02380-ba4e-11eb-9876-b94d67ebe90e.png)
 
 4. Run script using command "npm run test"
@@ -43,10 +46,12 @@ Clone repository of master branch
 # Reporting :
 
 1. Console Reoprt Log : 
+
 ![image](https://user-images.githubusercontent.com/77624984/125280291-7e31e080-e332-11eb-96a7-16530ad3f51c.png)
 
 
 2. Allure HTML Report : 
+
 ![image](https://user-images.githubusercontent.com/77624984/125280099-53478c80-e332-11eb-82ec-5d47cd961a0b.png)
 
 ![image](https://user-images.githubusercontent.com/77624984/125280182-678b8980-e332-11eb-818a-2670ac45ac64.png)

@@ -30,7 +30,7 @@ Then(/^I should see product listing page with a list of products$/, async () => 
 });
 
 When(/^I click on wishlist icon of the first found product$/, async () => {
-    await productListPage.addFirtProductInWishList()
+    await productListPage.addFirstProductInWishlist()
 });
 
 Then(/^I should see the login\/registration overlay$/, async () => {

@@ -5,14 +5,14 @@ import Page from '../../../lib/page';
  */
 class LoginPage extends Page {
 
-    get usernameInput () { return $('input[data-testid="long-register-email-field"]') }
-    get passwordInput () { return $('input[data-testid="long-register-password-field"]') }
-    get submitButton () { return $('button[data-testid="login_reg_submit_btn"]') }
     get loginOnRegistrationButton () { return $('button[data-testid="login-button"]')}
     get closeLoginRegOverlayButton () { return $('button[data-identifier="LOGIN_AND_REGISTER"]')}
     get switchToLoginButton () { return $('button[data-testid="login_reg_switch_btn"]')}
     get loginTitleText () { return $('div[data-testid="login_and_register"] p.StyledTitle___default-sc-1x0c4zz-0')}
-
+    get usernameInput () { return $('input[data-testid="long-register-email-field"]') }
+    get passwordInput () { return $('input[data-testid="long-register-password-field"]') }
+    get submitButton () { return $('button[data-testid="login_reg_submit_btn"]') }
+    
     async login (username, password) {
         await (await this.usernameInput).waitForDisplayed(this.waitObject)
         await this.enterText(this.usernameInput, username)

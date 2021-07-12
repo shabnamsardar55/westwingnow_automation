@@ -5,10 +5,10 @@ import Page from '../../../lib/page';
 class HomePage extends Page {
 
     get acceptCookiesButton () { return $('#onetrust-accept-btn-handler')}
-    get westwingnowLogo () { return $('svg.kfsNAz[aria-labelledby="title"]') }
-    get productSearch () { return $('input[data-testid="search-input"]')} 
     get firstSuggestionItem () {return $('div[data-testid="suggestions"]>div:nth-child(1) span')}
     get productSearchButton () { return $('svg[data-testid="header-search-icon"]')}
+    get westwingnowLogo () { return $('svg.kfsNAz[aria-labelledby="title"]') }
+    get productSearch () { return $('input[data-testid="search-input"]')} 
     get productTitle () { return $('header > div h1.RegularTitle__StyledPageTitle-zjo017-0')}
         
     async pageHasBeenLoaded () {
