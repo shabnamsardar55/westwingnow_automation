@@ -24,11 +24,9 @@ https://github.com/shabnamsardar55/westwingnow_automation/tree/master
 1. Install libraries using command "npm install"
 2. Change services to chromedriver
 
-![image](https://user-images.githubusercontent.com/74857236/119124803-b31a6900-ba4e-11eb-9f7b-6427129ed884.png)
+>services: ['docker'],
 
-3. comment chrome option added for headless mode
-
-![image](https://user-images.githubusercontent.com/74857236/119125030-f1b02380-ba4e-11eb-9876-b94d67ebe90e.png)
+3. comment --headless from chromeOptions
 
 4. Run script using command "npm run test"
 
