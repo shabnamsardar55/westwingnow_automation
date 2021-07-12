@@ -27,48 +27,40 @@ Then(/^I should see product listing page with a list of products$/, async () => 
     await loginPage.closeLoginRegisterOverLay()
     let numberOfProducts = await productListPage.getProductList()
     expect(numberOfProducts > 0).toStrictEqual(true)
-    console.log(`----I am have verified ${numberOfProducts} of products on first page list`)
 });
 
 When(/^I click on wishlist icon of the first found product$/, async () => {
     await productListPage.addFirtProductInWishList()
-    console.log('----I have added first product on wishlist')
 });
 
 Then(/^I should see the login\/registration overlay$/, async () => {
     let header = await loginPage.getLoginPopupHeader()
     expect(header.toLowerCase()).toMatch('Neukunde?'.toLowerCase())
-    console.log('----I have verified login / register form visible')
 })
 
 When(/^I switch to login form of the overlay$/, async () => {
     let header = await loginPage.switchTologinOverlay()
     expect(header.toLowerCase()).toMatch('Bereits registriert?'.toLowerCase())
-    console.log('----I have switched to login form')
 })
 
-When(/^I log in with "test_configuration"$/, async () => {
+When(/^I log in with registered test user$/, async () => {
     await loginPage.login(config[testEnv].username, config[testEnv].password)
     await userhomePage.waitForLoginComplete(config[testEnv].firstname)
     expect(userhomePage.userFirstnameText).toHaveTextContaining(config[testEnv].firstname)
-    console.log(`----I have verified login successful for user ${config[testEnv].firstname}`)
 })
 
 Then(/^the product should be added to the wishlist$/, async () => {
     expect(await userhomePage. productNameText).toHaveTextContaining(global.wishProductName)
     expect(await userhomePage.getFirstProductFillProperty()).toHaveAttributeContaining("true")
     expect(await userhomePage.wishlistCounterText).toHaveTextContaining("1")
-    console.log(`----I have verified product ${global.wishProductName} added to wishlist`)
 })
 
 Then(/^I go to the wishlist page$/, async () => {
     await userhomePage.navigateToWishList()
     expect(await wishlistPage.wishlistHeaderText).toHaveTextContaining("Wunschliste")
-    console.log('----I have sucessfully navigated to wishlist page')
 })
 
 Then(/^I delete the product from my wishlist$/, async () => {
     await wishlistPage.deleteWishListProduct()
     expect(await wishlistPage.getNoWishlistProductText()).toHaveTextContaining('Die Wunschliste ist momentan leer')
-    console.log('----I have deleted product from wishlist and verified wishlist is empty')
 })
