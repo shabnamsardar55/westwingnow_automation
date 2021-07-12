@@ -53,7 +53,8 @@ To get Allure HTML Report -
 2. Run command 
 >'npm i -g allure-commandline'
 3. Run command
->'allure serve <path to allure-results folder>'
+>'allure serve 'path to allure-results folder'
+
 >For examples - allure serve C:\Users\sardas2\westwingnow_automation\allure-results
 
 ![image](https://user-images.githubusercontent.com/77624984/125280099-53478c80-e332-11eb-82ec-5d47cd961a0b.png)
