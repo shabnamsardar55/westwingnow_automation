@@ -33,8 +33,8 @@ https://github.com/shabnamsardar55/westwingnow_automation/tree/master
 # Build in docker file
 1. Build docker image using command 
 >"docker build -t westwing:v1"
-2. Check image has been build successfully using 
->command "docker images"
+2. Check image has been build successfully using command
+>"docker images"
 3. Run script on image using command 
 >"docker run -it westwing:v1"
 
