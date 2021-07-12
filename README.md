@@ -24,16 +24,19 @@ https://github.com/shabnamsardar55/westwingnow_automation/tree/master
 1. Install libraries using command "npm install"
 2. Change services to chromedriver
 
->services: ['docker'],
+>services: ['chromedriver'],
 
 3. comment --headless from chromeOptions
 
 4. Run script using command "npm run test"
 
 # Build in docker file
-1. Build docker image using command "docker build -t westwing:v1"
-2. Check image has been build successfully using command "docker images"
-3. Run script on image using command "docker run -it westwing:v1"
+1. Build docker image using command 
+>"docker build -t westwing:v1"
+2. Check image has been build successfully using 
+>command "docker images"
+3. Run script on image using command 
+>"docker run -it westwing:v1"
 
 # Reporting :
 
