@@ -1,6 +1,6 @@
 # Westwingnow Automation POC
 
-Problem Statement
+Assignment - 
 
 ![image](https://user-images.githubusercontent.com/74857236/119126822-2ae99300-ba51-11eb-90e5-0637888261c1.png)
 
