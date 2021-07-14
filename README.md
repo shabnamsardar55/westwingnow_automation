@@ -2,7 +2,8 @@
 
 Assignment - 
 
-![image](https://user-images.githubusercontent.com/74857236/119126822-2ae99300-ba51-11eb-90e5-0637888261c1.png)
+![image](https://user-images.githubusercontent.com/77624984/125633647-fde42a82-e8cb-4351-9a72-3390b6a980fd.png)
+
 
 
 # Build steps
